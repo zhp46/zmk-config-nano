@@ -10,9 +10,6 @@ endif
 
 if SHIELD_WYLD_DM_LEFT || SHIELD_WYLD_DM_RIGHT
 
-config USB
-    default y
-
 config ZMK_SPLIT
     default y
 
