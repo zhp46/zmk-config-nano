@@ -27,7 +27,7 @@
 &kp LCTRL  &kp A   &kp S      &kp D     &kp F      &kp G          &kp H       &kp J       &kp K         &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X      &kp C     &kp V      &kp B          &kp N       &kp M       &kp COMMA     &kp DOT    &kp FSLH  &kp RSHFT
                    &kp LBKT   &kp RBKT  &kp LSHFT  &kp SPACE      &kp ENTER   &kp RSHFT   &kp LEFT_ALT  &kp RGUI
-                   &mo LOWER  &kp HOME  &kp TAB    &kp BACKSPACE  &kp INSERT  &kp DELETE  &kp K_MUTE    &mo RAISE
+                   &mo LOWER  &kp HOME  &kp TAB    &kp BACKSPACE  &kp INSERT  &kp DELETE  &kp K_MUTE    &tog RAISE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -51,7 +51,7 @@
         raise_layer {
             display-name = "RAISE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans    &trans     &trans     &trans      &trans        &trans           &trans
+&trans  &trans    &trans    &trans  &trans     &trans    &trans     &trans     &trans      &trans        &trans           &kp KP_NUM
 &trans  &trans    &trans    &trans  &trans     &trans    &trans     &trans     &trans      &trans        &trans           &kp PRCNT
 &trans  &trans    &trans    &trans  &trans     &kp LBKT  &kp RBKT   &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_DIVIDE    &trans
 &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LPAR  &kp RPAR   &kp KP_N4  &kp KP_N5   &kp KP_N6     &kp KP_MULTIPLY  &trans
